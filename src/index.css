@@ -1,13 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: parkinsans !important;
+  background-color: #0B192C !important;
+  color: #fff;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.menus{
+  width: 100%;
+  justify-content: end;
+  gap: 15px;
 }
+.nav{
+  color: #CC2B52;
+}
+.nav:focus{
+  color: #fff !important;
+}
+.nav:hover{
+  color: #fff !important;
+}
+.card:hover{
+  box-shadow: 0 0 10px grey;
+ padding: 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  background-color: black !important; 
+  background: blurred !important;
+}
+.btn1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+ 
